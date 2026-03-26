@@ -1,0 +1,39 @@
+{
+  "name": "learn-react",
+  "version": "1.0.0",
+  "description": "learn react",
+  "keywords": [
+    "react",
+    "learn",
+    "react",
+    "beginer",
+    "to",
+    "react"
+  ],
+  "homepage": "https://github.com/saravananuiengineer/react-learn#readme",
+  "bugs": {
+    "url": "https://github.com/saravananuiengineer/react-learn/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saravananuiengineer/react-learn.git"
+  },
+  "license": "ISC",
+  "author": "saravanan v",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "browserslist": [
+    "last 2 version"
+  ]
+}

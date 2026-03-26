@@ -1,0 +1,9 @@
+div,p {
+    margin:0;
+    padding:0
+}
+
+#logo {
+    width:220px;
+    display:flex;
+}
