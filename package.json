@@ -20,7 +20,7 @@
   },
   "license": "ISC",
   "author": "saravanan v",
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
