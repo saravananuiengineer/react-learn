@@ -1,0 +1,1 @@
+export const REST_INFO_API = "https://www.zomato.com/webroutes/getPage?page_url=/bangalore/e-city-social-electronic-city-bangalore/info"

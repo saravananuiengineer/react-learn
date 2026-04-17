@@ -53,18 +53,32 @@ header nav ul li{
     flex-flow:row wrap;
     justify-content:space-evenly;
 }
-.cards {
+.simmer-cards {
+    background-color:#ededed;
+}
+.cards, .simmer-cards {
     width:250px;
     margin:10px;
+}
+.simmer-cards .row-card {
+    height:25px;
 }
 .row-card {
     display: flex;
     justify-content: space-between;
 }
-.cards img {
+.cards img, .simmer-cards .simmerimg {
     width:100%;
     border-radius:5px;
     height: 190px;
+}
+.simmerimg {
+    border-bottom:5px solid white
+}
+.simmer-container {
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-evenly;
 }
 .row-card .name {
     line-height: 1.2;

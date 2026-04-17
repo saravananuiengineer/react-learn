@@ -135,7 +135,7 @@ const Cards = (props) => {
                     "isDisabled": false,
                     "bottomContainers": []
                 }; */
-                console.log(props);
+                //console.log(props);
     const  {image, name, rating, cuisine, locality, timing } = props.restaurantsDetails.info;
                 
     return (
