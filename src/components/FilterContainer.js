@@ -1,6 +1,7 @@
 const FilterContainer = () => {
+    
     return (
-        <div id="filter">
+        <div id="filter" className="py-10 flex">
             <input placeholder="Search Restarunts" />
             <button>Filter </button>
             <button>Offers </button>

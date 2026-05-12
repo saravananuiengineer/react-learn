@@ -15,10 +15,10 @@ const useFetchRestarentsList = ()=> {
         const json = await cards.json();
         //console.log(json);
         setData(json);
-       setFilterResData(json)
+        setFilterResData(json)
     }
 
-    return {data, filterResData};
+    return {data, filterResData, setFilterResData,setData};
 }
 
 export default useFetchRestarentsList;
