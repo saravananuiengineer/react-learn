@@ -12,8 +12,10 @@ import Error from "./components/Error"
 import RestaurantMenu from "./components/RestaurantMenu"
 import SimmerCards from './components/SimmerCards'
 import Cart from './components/Cart'
+import Count from './components/Count'
 import { Provider } from 'react-redux';
 import appStore from './utils/appStore.js'
+import Carousel from './shared/ui/Carousel'
 
 const Grocery = lazy(() => import('./components/Grocery'));
 
@@ -48,12 +50,20 @@ const appRouter = createBrowserRouter([
                 element: <Contact />
             },
             {
+                path: "/carousel",
+                element: <Carousel />
+            },
+            {
                 path: "/grocery",
                 element: <Suspense fallback={<SimmerCards />}><Grocery /></Suspense>
             },
             {
                 path: "/cart",
                 element: <Cart />
+            },
+            {
+                path: "/count",
+                element: <Count />
             },
             {
                 path: "/bangalore/:id",
